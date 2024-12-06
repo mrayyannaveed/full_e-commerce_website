@@ -4,7 +4,7 @@ export default function Navbar(){
     return(
         <div>
             <nav className="flex justify-center border-b-[0.5px] pb-6">
-                <section className="flex bg-cyan-20 h-10 items-center justify-between w-[85vw] mt-12">
+                <section className="flex bg-cyan-20 h-10 items-center justify-between w-[80vw] mt-12">
 
                 <section className="flex  justify-between w-[50vw] border-2 border-blue-50">
                     <h1 className="text-2xl font-bold leading-6">Exclusive</h1>
