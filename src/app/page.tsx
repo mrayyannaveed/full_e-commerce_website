@@ -2,6 +2,9 @@ import Hero from "./components/hero-section";
 import Featured from "./components/featured";
 import Services from "./components/services";
 import Products from "./components/products";
+import CategoriesAd from "./components/categoriesAd";
+import Categories from "./components/categories";
+import ThisMonth from "./components/thisMonth";
 
 export default function Home(){
   let services = [
@@ -12,8 +15,11 @@ export default function Home(){
   return(
     <div>
       <Hero/>
-      <Featured/>
+      <Categories/>
+      <ThisMonth/>
+      <CategoriesAd/>
       <Products/>
+      <Featured/>
       <div className="flex justify-between w-[930px] m-auto">
       
       {services.map((serve) => {

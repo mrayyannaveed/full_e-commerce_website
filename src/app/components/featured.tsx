@@ -1,13 +1,14 @@
 import SectionName from "./sectionName"
 import Image from "next/image"
 import Link from "next/link"
+import BorderBottom from "./borderBottom"
 
 const Featured = () => {
     const sectName = "Featured"
     const heading = "New Arrival"
     return(
-        <div className="mb-32">
-            {/* <section className="border border-black w-[81vw]"> */}
+        <div>
+            <section className="mb-28 mt-24">
                 <section className="flex justify-center">
                     <section className="w-[81vw] grid gap-12 border-black border">
                         <section className="border border-black">
@@ -76,6 +77,8 @@ const Featured = () => {
                     
                     </section>
                 </section>
+            </section>
+            <BorderBottom/>
         </div>
     )
 }
