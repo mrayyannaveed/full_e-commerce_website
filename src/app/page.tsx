@@ -22,7 +22,9 @@ export default function Home(){
       <CategoriesAd/>
       <Products/>
       <Featured/>
-      <div className="flex justify-between w-[930px] m-auto">
+      <section className="flex justify-center items-center ">
+
+      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-8 lg:gap-14 xl:gap-16 m-auto">
       
       {services.map((serve) => {
         return(
@@ -32,6 +34,7 @@ export default function Home(){
         )
       })}
       </div>
+      </section>
     </div>
   )
 }

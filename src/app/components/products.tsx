@@ -36,7 +36,7 @@ const Products = () => {
   return (
     <div>
         <section className="flex justify-center">
-            <section className="w-[81vw] mt-24 mb-28 ">
+            <section className="w-[90vw] md:w-[81vw] mt-24 mb-28 ">
                 <section className=" bg-purple-30 ">
                     <section className="flex justify-between mb-10">
                         <div className="">
@@ -47,7 +47,7 @@ const Products = () => {
                             <Image className="w-6 h-6" src={"/blrightArrow.png"} alt="rightArrow" width={24} height={24}></Image>    
                         </div>
                     </section>
-                    <section className="grid grid-cols-4 gap-4">
+                    <section className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
 
                     {myproducts.map((product) => {
                         return(

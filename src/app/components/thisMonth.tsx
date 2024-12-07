@@ -38,7 +38,7 @@ const ThisMonth = () => {
                         </div>
                     </section>
                 </section>
-                <section className="grid grid-cols-4 gap-4">
+                <section className="grid grid-cols-2  lg:grid-cols-4 md:gap-6 gap-4">
 
                     {myproducts.map((product) => {
                         return(

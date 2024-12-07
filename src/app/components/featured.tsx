@@ -9,13 +9,13 @@ const Featured = () => {
     return(
         <div>
             <section className="mb-28 mt-24">
-                <section className="flex justify-center">
-                    <section className="w-[81vw] grid gap-12 ">
+                <section className="flex justify-center items-center">
+                    <section className="w-[100vw] md:w-[90vw] grid gap-12 ">
                         <section className="">
                         <SectionName name={sectName}  head={heading}/>
                         </section>
                         {/* //flex justify-between */}
-                        <section className="grid grid-cols-2 gap-5">
+                        <section className="grid grid-cols-1  md:grid-cols-2 gap-5">
                         <section className="w-[510px] h-[600px]">
                         <div className="w-full h-full rounded bg-black flex justify-center ">
                             <div className="flex items-end bg-[#000]">

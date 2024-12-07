@@ -4,9 +4,9 @@ function Footer(){
     return(
         <div>
             <footer className="bg-black text-white mt-20">
-                <section className="flex items-center justify-center w-full h-[440px]">
+                <section className="flex items-center justify-center w-full">
 
-                <section className="w-[85vw]  border-blue-400 flex justify-between">
+                <section className="max-w-[50vw] grid grid-cols-1 md:grid-cols-3 md:max-w-[70vw] gap-10 lg:grid-cols-4 lg:max-w-[85vw] xl:max-w-[95vw]">
                     <section className=" h-[202px]">
                         <section className="mb-5">
                             <div className="flex flex-col gap-6 pb-5">

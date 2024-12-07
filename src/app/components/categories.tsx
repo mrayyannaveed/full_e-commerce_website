@@ -26,7 +26,7 @@ const Categories = () => {
   return (
     <div>
         <section className="flex justify-center">
-            <section className='w-[81vw] mb-28 mt-24 '>
+            <section className='w-[81vw] mb-28 mt-24'>
                 <section className=" bg-purple-30">
                     <section className="flex justify-between mb-10">
                         <div className="">
@@ -38,7 +38,7 @@ const Categories = () => {
                         </div>
                     </section>
                 </section>
-                <section className='flex justify-between'>
+                <section className='grid grid-cols-2 gap-4 md:grid md:grid-cols-3 md:gap-5   lg:flex justify-between'>
                     {categories.map((category) => {
                         return(
                             <div>
