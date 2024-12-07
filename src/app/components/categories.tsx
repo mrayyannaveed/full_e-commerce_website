@@ -26,7 +26,7 @@ const Categories = () => {
   return (
     <div>
         <section className="flex justify-center">
-            <section className='w-[81vw] mb-28 mt-24 border border-black'>
+            <section className='w-[81vw] mb-28 mt-24 '>
                 <section className=" bg-purple-30">
                     <section className="flex justify-between mb-10">
                         <div className="">

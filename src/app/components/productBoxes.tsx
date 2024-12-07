@@ -20,8 +20,8 @@ const ProductBoxes = (props: any) => {
               className="w-32 h-32"
               src={props.image}
               alt={props.alt}
-              width={400}
-              height={400}
+              width={500}
+              height={500}
             ></Image>
           <div className="relative">
 

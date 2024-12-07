@@ -26,9 +26,9 @@ const Products = () => {
         {productImage: "/camera.png", productAlt: "Camera", productName: "CANON EOS DSLR Camera", productPrice: "$360", productRating: "/Four.png", rateAlt: "rating"},
         {productImage: "/laptop.png", productAlt: "Laptop", productName: "ASUS FHD Gaming Laptop", productPrice: "$700", productRating: "/Five.png", rateAlt: "rating"},
         {productImage: "/curology.png", productAlt: "Curology", productName: "Curology Product Set", productPrice: "$500", productRating: "/Four.png", rateAlt: "rating"},
-        {productImage: "/mercedes.png", productAlt: "Mercedes", productName: "Kids Electric Car", productPrice: "$960", productRating: "/Five.png", rateAlt: "rating", new: <New/>},
+        {productImage: "/mercedes.png", productAlt: "Mercedes", productName: "Kids Electric Car", productPrice: "$960", productRating: "/Five.png", rateAlt: "rating", new: <New bg={"#00FF66"} text={"New"}/>},
         {productImage: "/shoes.png", productAlt: "Shoes", productName: "Jr. Zoom Soccer Cleats", productPrice: "$1160", productRating: "/Five.png", rateAlt: "rating", new: ""},
-        {productImage: "/gamepad.png", productAlt: "Gamepad", productName: "GP11 Shooter USB Gamepad", productPrice: "$660", productRating: "/Five.png", rateAlt: "rating", new: <New/>},
+        {productImage: "/gamepad.png", productAlt: "Gamepad", productName: "GP11 Shooter USB Gamepad", productPrice: "$660", productRating: "/Five.png", rateAlt: "rating", new: <New bg={"#00FF66"} text={"New"}/>},
         {productImage: "/jacket.png", productAlt: "Jacket", productName: "Quilted Satin Jacket", productPrice: "$660", productRating: "/Five.png", rateAlt: "rating"},
     ];
     
@@ -36,7 +36,7 @@ const Products = () => {
   return (
     <div>
         <section className="flex justify-center">
-            <section className="w-[81vw] border-black mt-24 mb-28  border">
+            <section className="w-[81vw] mt-24 mb-28 ">
                 <section className=" bg-purple-30 ">
                     <section className="flex justify-between mb-10">
                         <div className="">
@@ -59,7 +59,7 @@ const Products = () => {
                     })}
                     </section>
                     <div className="text-center pt-10">
-                        <Button className="bg-[#DB4444] rounded text-[#FAFAFA] hover:bg-[#ffecec] transition-all duration-300 hover:text-black">View All Products</Button>
+                        <Button className="bg-[#DB4444] w-[234px] rounded text-[#FAFAFA] hover:bg-[#ffecec] transition-all duration-300 hover:text-black">View All Products</Button>
                     </div>
 
                 </section>

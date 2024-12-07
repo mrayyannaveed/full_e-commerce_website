@@ -5,6 +5,7 @@ import Products from "./components/products";
 import CategoriesAd from "./components/categoriesAd";
 import Categories from "./components/categories";
 import ThisMonth from "./components/thisMonth";
+import FlashSales from "./components/flashSales";
 
 export default function Home(){
   let services = [
@@ -15,6 +16,7 @@ export default function Home(){
   return(
     <div>
       <Hero/>
+      <FlashSales/>
       <Categories/>
       <ThisMonth/>
       <CategoriesAd/>

@@ -18,16 +18,16 @@ const ThisMonth = () => {
     };
     
     let myproducts: pro[] = [
-        {productImage: "/coat.png", productAlt: "coat", productName: "Breed Dry Dog Food", productPrice: "$260", productRating: "/Five.png", rateAlt: "rating", productOldPrice: "$360"},
-        {productImage: "/duffleBag.png", productAlt: "duffleBag", productName: "CANON EOS DSLR Camera", productPrice: "$960", productRating: "/FourHalf.png", rateAlt: "rating", productOldPrice: "$1160"},
-        {productImage: "/CPU.png", productAlt: "CPU", productName: "ASUS FHD Gaming Laptop", productPrice: "$160", productRating: "/Five.png", rateAlt: "rating", productOldPrice: "$170"},
-        {productImage: "/BookShelf.png", productAlt: "BookShelf", productName: "Curology Product Set", productPrice: "$360", productRating: "/Four.png", rateAlt: "rating"}
+        {productImage: "/coat.png", productAlt: "coat", productName: "The north coat", productPrice: "$260", productRating: "/Five.png", rateAlt: "rating", productOldPrice: "$360"},
+        {productImage: "/duffleBag.png", productAlt: "duffleBag", productName: "Gucci duffle bag", productPrice: "$960", productRating: "/FourHalf.png", rateAlt: "rating", productOldPrice: "$1160"},
+        {productImage: "/CPU.png", productAlt: "CPU", productName: "RGB liquid CPU Cooler", productPrice: "$160", productRating: "/Five.png", rateAlt: "rating", productOldPrice: "$170"},
+        {productImage: "/BookShelf.png", productAlt: "BookShelf", productName: "Small BookSelf", productPrice: "$360", productRating: "/Four.png", rateAlt: "rating"}
     ];
 
   return (
     <div>
         <section className="flex justify-center">
-            <section className='w-[81vw] mb-28 mt-24 border border-black'>
+            <section className='w-[81vw] mb-28 mt-24'>
                 <section className=" bg-purple-30">
                     <section className="flex justify-between mb-10">
                         <div className="">

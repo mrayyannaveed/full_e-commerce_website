@@ -10,11 +10,11 @@ const Featured = () => {
         <div>
             <section className="mb-28 mt-24">
                 <section className="flex justify-center">
-                    <section className="w-[81vw] grid gap-12 border-black border">
-                        <section className="border border-black">
+                    <section className="w-[81vw] grid gap-12 ">
+                        <section className="">
                         <SectionName name={sectName}  head={heading}/>
                         </section>
-                      
+                        {/* //flex justify-between */}
                         <section className="grid grid-cols-2 gap-5">
                         <section className="w-[510px] h-[600px]">
                         <div className="w-full h-full rounded bg-black flex justify-center ">
@@ -32,7 +32,7 @@ const Featured = () => {
                         </div>
                         </section>
                         <section className="w-[510px] h-[600px]  grid grid-cols-2 grid-rows-2 gap-8">
-                        <div className="w-full h-full rounded bg-purple-300 col-span-2">
+                        <div className="w-full h-full rounded bg-purple-30 col-span-2">
                             <div className="flex items-end bg-[#000] justify-end">
                                     <Image className="w-[432px] h-[286px]" src={"/womenColec.png"} alt="womenCollection" width={400} height={400}></Image>
                             <div className="bg-teal-20 flex flex-col mr-56 mb-5 text-white w-[262px] absolute z-10">
@@ -44,7 +44,7 @@ const Featured = () => {
                             </div>
                             </div>
                         </div>
-                        <div className="w-full h-full rounded bg-pink-400">
+                        <div className="w-full h-full rounded bg-pink-40">
                         <div className="w-full h-full rounded bg-black flex justify-center ">
                             <div className="flex items-end bg-[#000]">
                             <Image className="w-[190px] h-[221px]" src={"/speakers.png"} width={500} height={500} alt="speakers"></Image>
@@ -58,7 +58,7 @@ const Featured = () => {
                             </div>
                         </div>
                         </div>
-                        <div className="w-full h-full rounded bg-green-300">
+                        <div className="w-full h-full rounded bg-green-30">
                         <div className="w-full h-full rounded bg-black flex justify-center ">
                             <div className="flex items-end bg-[#000]">
                             <Image className="w-[190px] h-[221px]" src={"/oud.png"} width={500} height={500} alt="oud"></Image>

@@ -66,10 +66,10 @@ function Footer(){
                             <Image className="w-[124px] h-[40px]" src={"/appstore1.png"} alt="AppStore" width={80} height={45}></Image>
                     </div>
                     <div className="flex justify-between w-[168px]">
-                        <Image className="w-6 h-6 cursor-pointer" src={"/Facebook.png"} alt="Facebook" width={24} height={24}></Image>
-                        <Image className="w-6 h-6 cursor-pointer" src={"/Group.png"} alt="X" width={24} height={24}></Image>
-                        <Image className="w-6 h-6 cursor-pointer" src={"/instagram.png"} alt="Instagram" width={24} height={24}></Image>
-                        <Image className="w-6 h-6 cursor-pointer" src={"/Linkedin.png"} alt="Linkedin" width={24} height={24}></Image>
+                        <Link href={"https://www.facebook.com/rayyan.naveed.33?mibextid=ZbWKwL"} target="_blank"><Image className="w-6 h-6 cursor-pointer" src={"/Facebook.png"} alt="Facebook" width={24} height={24}></Image></Link>
+                        <Link href={"https://www.twitter.com/"} target="_blank"><Image className="w-6 h-6 cursor-pointer" src={"/Group.png"} alt="X" width={24} height={24}></Image></Link>
+                        <Link href={"https://www.instagram.com/"} target="_blank"><Image className="w-6 h-6 cursor-pointer" src={"/instagram.png"} alt="Instagram" width={24} height={24}></Image></Link>
+                        <Link href={"https://www.linkedin.com/in/muhammad-rayyan-naveed-63090b329/"} target="_blank"><Image className="w-6 h-6 cursor-pointer" src={"/Linkedin.png"} alt="Linkedin" width={24} height={24}></Image></Link>
                     </div>
                     </section>
                 </section>

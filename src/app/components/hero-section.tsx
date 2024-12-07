@@ -4,9 +4,9 @@ import BorderBottom from "./borderBottom"
 const Hero = () => {
     return(
         <div>
-            <section className="flex mt-5 mb-28">
+            <section className="flex mt-5 mb-28 w-[81vw] lg:w-[90vw bg-blue-20 m-auto items-end justify-between">
                 <section className="border-r-[0.5px]">
-                    <div className="border border-black w-[217px] h-[344px] ml-32 mt-10 mr-3">
+                    <div className="w-[217px] h-[344px]  mr-5">
                         <ul className="flex flex-col gap-4 text-base">
                             <li className="flex justify-between items-center"><Link className="hover:underline hover:decoration-blue-400 hover:decoration-4" href={""}>Woman's Fashion</Link>
                             <Image className="w-3 h-4" src={"/rightVector.png"} alt="rightVector" height={4} width={10}></Image></li>
@@ -47,3 +47,4 @@ const Hero = () => {
 }
 
 export default Hero
+
